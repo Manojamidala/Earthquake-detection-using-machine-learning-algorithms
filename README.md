@@ -2,7 +2,9 @@
 ## Abstract
 An Earthquake is the sudden shaking of the surface of the earth resulting from sudden release of energy in the Lithosphere. Earthquake detection using machine learning is a promising approach to improving the speed and accuracy of earthquake detection. Machine learning algorithms use statistical models to analyze seismic data and identify patterns associated with earthquakes. The process of earthquake detection using machine learning involves collecting seismic data from seismometers and extracting relevant features from the data. The features extracted from the seismic data are used to train machine learning models such as decision tree, KNeighborsClassifier , Support Vector Machines , and Random Forest Classifier to identify patterns in the seismic waves associated with earthquakes. Once the models are trained, they can be used for earthquake detection.
 ## Workflow:
-![image](https://user-images.githubusercontent.com/88728002/231971025-76c51414-bf4c-4bbc-9ada-d81b32a03fad.png)
+![5](https://user-images.githubusercontent.com/88728002/231994963-d27419cf-a2ad-49ce-85f5-ede24c1816cd.png)
+
+
 
 The Schematic Representation of Workflow Process
 
