@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Earthquake Detection Result</title>
+	<style>
+		body {
+			background-image: url('C:/Manoj/myenv/templates/images/down.png');
+			background-color:grey;
+			background-size: cover;
+			background-position: center top;
+		}
+		.container {
+			background-color: white;
+			border: 1px solid #ccc;
+			padding: 20px;
+			margin-top: 50px;
+			width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+			font-family: Arial, Helvetica, sans-serif;
+			
+		}
+	
+		h1 {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin-top: 50px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 40px;
+			border-radius: 6px;
+			text-align: center;
+			cursor: pointer;
+			width: 100%;
+			
+			margin-top: 50px;
+		}
+		h2 {
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 20px;
+		}
+	
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+	
+		.back-button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin-top: 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			width: 100%;
+		}
+	
+		.back-button:hover {
+			background-color: #45a049;
+		}
+		.back-button {
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			width: 35%;
+		  }
+		  
+	</style>
+</head>
+<body>
+	<h1>Earthquake Detection Results</h1>
+		<div class="container">
+		<pstyle="font-size: 36px">The Detection magnitude of the earthquake is: <strong style="font-size: 36px">{{ magnitude }} magnitude earthquakes</strong> </p>
+		</div>
+		<br>
+		<a href="{{ url_for('home') }}" class="back-button" style="font-size: 26px"><b>Back to Detection</b></a>
+	</div>
+</body>
+</html>	

@@ -1,0 +1,67 @@
+/* Set default font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Style the page header */
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the form container */
+form {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* Style form labels and inputs */
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style page footer */
+footer {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
